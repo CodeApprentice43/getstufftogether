@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Changed BrowserRouter to HashRouter
-import OAuthLogin from './OAuthLogin';
-import Callback from './Callback';  // Import the Callback component
-import Homepage from './Homepage';  // Updated from Recommendations
-import {Settings } from './Settings';
+import OAuthLogin from './pages/OAuthLogin';
+import Callback from './pages/Callback';  // Import the Callback component
+import Homepage from './pages/Homepage';  // Updated from Recommendations
+import {Settings } from './pages/Settings';
 function App() {
   return (
     <Router>
@@ -14,9 +14,6 @@ function App() {
           <Route path="home" element={<Homepage />} />   
           <Route path="settings" element={<Settings/>} />   
           <Route path="oauthlogin" element={<OAuthLogin/>} />   
-
- 
-
         </Routes>
       </div>
     </Router>

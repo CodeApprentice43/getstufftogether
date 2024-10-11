@@ -1,7 +1,6 @@
 {
   "name": "spotify",
   "version": "0.1.0",
-  "homepage": "https://se-dev.cse.buffalo.edu/CSE442/2024-Fall/nafismor/CompleteHomepage/react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
